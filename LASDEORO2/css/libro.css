@@ -1,0 +1,102 @@
+.hero {
+  margin-top: 70px;
+  background-color: #333;
+  color: white;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  font-family: 'Italianno', cursive;
+}
+
+.hero h1 {
+  font-family: 'Italianno', cursive;
+  font-size: 3rem;
+  margin: 0;
+}
+
+.libro {
+  font-family: Arial, sans-serif;
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 800px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.libro h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.libro h2 {
+  margin-top: 2rem;
+  color: #444;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.5rem;
+}
+
+.libro label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #222;
+}
+
+.libro input[type='text'],
+.libro input[type='email'],
+.libro select,
+.libro textarea {
+  width: 100%;
+  padding: 0.6rem;
+  margin-top: 0.3rem;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.libro textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.libro button {
+  margin-top: 2rem;
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.libro button:hover {
+  background-color: #333;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+    visibility: hidden;
+  }
+  to {
+    width: 100%;
+    visibility: visible;
+  }
+}
+
+.titulo-animado {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid black;
+  font-size: 2.2rem;
+  width: 0;
+  visibility: hidden;
+  animation: typing 3s steps(30, end) forwards;
+}
