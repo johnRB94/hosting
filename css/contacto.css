@@ -1,0 +1,104 @@
+body{
+    background-color: #585859;
+}
+
+.hero {
+    margin-top: 70px;
+    background-color: #333;
+    color: white;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    font-family: 'Italianno', cursive;
+}
+
+.container {
+    display: flex;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.columna {
+    flex: 1;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 0;
+    color: #a0522d;
+}
+
+h3 {
+    margin-top: 10px;
+    font-weight: normal;
+    color: #555;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.fila {
+    display: flex;
+    gap: 20px;
+}
+
+.fila input,
+.fila select,
+.fila textarea {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fafafa;
+}
+
+textarea {
+    resize: none;
+}
+
+.info-contacto p {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.info-contacto strong {
+    color: #a0522d;
+}
+
+.btn-enviar {
+    padding: 12px;
+    font-size: 18px;
+    background: #FFD700;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-enviar:hover {
+    background: #e6c200;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .fila {
+        flex-direction: column;
+    }
+}

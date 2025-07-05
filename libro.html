@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Preguntas Frecuentes - Las de Oros</title>
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/libro.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">LAS DE OROS</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="servicio.html">Servicio</a></li>
+        <li><a href="carta.html">Carta</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="preguntas.html">Preguntas</a></li>
+        <li><a href="libro.html" class="active">Reclamos</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero">
+        <h1>Libro de Reclamaciones</h1>
+    </section>
+
+    <div class="libro">
+      <h1 class="titulo-animado">Tu opinión importa</h1>
+
+      <h2>Identificación del consumidor reclamante</h2>
+
+      <label>Nombre *</label>
+      <input type="text" required />
+
+      <label>Domicilio *</label>
+      <input type="text" required />
+
+      <label>DNI/CE *</label>
+      <input type="text" required />
+
+      <label>Teléfono *</label>
+      <input type="text" required />
+
+      <label>Correo electrónico *</label>
+      <input type="email" required />
+
+      <h2>Identificación del bien contratado</h2>
+
+      <label>Tipo de Bien *</label>
+      <select required>
+        <option value="">Seleccionar tipo de bien</option>
+        <option value="producto">Producto</option>
+        <option value="servicio">Servicio</option>
+      </select>
+
+      <label>Monto Reclamado *</label>
+      <input type="text" required />
+
+      <label>Descripción</label>
+      <input type="text" />
+
+      <h2>Detalle de la reclamación y pedido del consumidor</h2>
+
+      <label>Tipo de Reclamación *</label>
+      <select required>
+        <option value="">Seleccionar tipo de reclamación</option>
+        <option value="reclamo">Reclamo</option>
+        <option value="queja">Queja</option>
+      </select>
+
+      <label>Detalle *</label>
+      <textarea required placeholder="Ingresa el detalle de tu reclamación"></textarea>
+
+      <label>Pedido *</label>
+      <textarea required placeholder="Ingresa el detalle de tu pedido"></textarea>
+
+      <button type="submit">ENVIAR HOJA DE RECLAMACIÓN</button>
+    </div>
+  </body>
+</html>

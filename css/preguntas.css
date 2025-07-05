@@ -1,0 +1,54 @@
+/* preguntas.css */
+.hero {
+    margin-top: 70px;
+    background-color: #333;
+    color: white;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    font-family: 'Italianno', cursive;
+  }
+
+.hero h1 {
+    font-family: 'Italianno', cursive;
+    font-size: 3rem;
+    margin: 0;
+}
+
+.faq-section {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+}
+
+/* titulo si hay subdiviciones en preguntas frecuentes */
+.faq-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    font-family: 'Italianno', cursive;
+    color: #333;
+}
+
+.faq-item {
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.faq-item h3 {
+    font-size: 1.4rem;
+    color: #7a5c3c;
+    margin-bottom: 8px;
+}
+
+.faq-item p {
+    font-size: 1rem;
+    color: #555;
+    margin: 0;
+}
